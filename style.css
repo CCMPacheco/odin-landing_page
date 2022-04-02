@@ -7,6 +7,7 @@
 
 body,
 h1,
+h2,
 p {
   margin: 0;
   padding: 0;
@@ -75,4 +76,64 @@ a {
   font-size: 18px;
   border-radius: 8px;
   padding: 8px 32px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #f9faf8;
+  height: 586px;
+  gap: 48px;
+  padding-top: 75px;
+}
+
+.info-title {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.card {
+  width: 175px;
+}
+
+.card-image {
+  width: 175px;
+  aspect-ratio: 1;
+  border: 5px solid #3882f6;
+  border-radius: 10px;
+}
+
+.info-text {
+  font-size: 18px;
+  color: #1f2937;
+  text-align: center;
+}
+
+.quote {
+  height: 586px;
+  background-color: #e5e7eb;
+}
+
+.signup {
+  height: 586px;
+  background-color: #f9faf8;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 24px 0px;
+  font-size: 18px;
+  color: #e5e7eb;
 }

@@ -152,6 +152,34 @@ a {
 .signup {
   height: 510px;
   background-color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #3882f6;
+  width: 1000px;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.signup-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.signup-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.blue-back {
+  border: 2px solid #f9faf8;
 }
 
 .footer {
